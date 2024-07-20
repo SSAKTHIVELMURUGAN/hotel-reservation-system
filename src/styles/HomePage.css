@@ -1,0 +1,144 @@
+/* Styles for the HomePage component */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+main p {
+    font-size: 18px;
+    color: #333;
+}
+
+.image-gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.image-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 80%;
+    margin-bottom: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+/* Styles for the HomePage component */
+.image-item img {
+    width: 300px; /* Set the desired width */
+    height: 200px; /* Set the desired height */
+    object-fit: cover; /* Ensure the image covers the dimensions while preserving aspect ratio */
+    border-bottom: 1px solid #ddd;
+}
+
+.hotel-info {
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+    text-align: left;
+    width: 50%;
+    justify-content: space-between;
+}
+
+.info-left,
+.info-right {
+    width: 50%;
+}
+
+.hotel-info h2 {
+    margin-top: 0;
+    color: #4CAF50;
+}
+
+.hotel-info ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0;
+}
+
+.hotel-info ul li {
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.hotel-info p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+.hotel-info .price {
+    color: #e91e63;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.hotel-info .original-price {
+    text-decoration: line-through;
+    color: #999;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.hotel-info .discount {
+    color: #e91e63;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.hotel-info .rating {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    
+}
+
+.hotel-info .rating span {
+    background-color: #4CAF50;
+    color: white;
+    padding: 2px 5px;
+    border-radius: 5px;
+    margin-right: 5px;
+    font-size: 14px;
+}
+
+.hotel-info .reviews {
+    color: #999;
+    font-size: 14px;
+}
+
+.hotel-info .tags {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.hotel-info .tags span {
+    background-color: #f1f1f1;
+    color: #333;
+    padding: 3px 10px;
+    border-radius: 5px;
+    margin: 2px;
+    font-size: 12px;
+}
