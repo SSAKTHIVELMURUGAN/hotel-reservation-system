@@ -1,0 +1,77 @@
+/* src/components/Feedback.css */
+
+.feedback-container {
+    width: 80%;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff; /* White background */
+    color: #333; /* Dark text color for better readability */
+  }
+  
+  .feedback-container h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .feedback-box {
+    background-color: #f9f9f9; /* Slightly gray background for the box */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px; /* Maximum width for better readability */
+    margin: 0 auto; /* Center the box */
+    transition: opacity 0.5s ease, transform 0.5s ease;
+  }
+  
+  .feedback-box textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1em;
+    margin-bottom: 15px;
+    resize: vertical; /* Allow vertical resizing */
+  }
+  
+  .submit-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 1em;
+  }
+  
+  .submit-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .fade-in {
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  /* src/components/Feedback.css */
+  
+  .feedback-message {
+    margin-top: 20px;
+    color: #28a745; /* Green color for success message */
+    font-size: 1.2em;
+    text-align: center;
+    font-weight: bold;
+  }
+  

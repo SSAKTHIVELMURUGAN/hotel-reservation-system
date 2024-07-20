@@ -1,0 +1,64 @@
+/* src/components/Footer.css */
+
+.footer {
+    background-color: #333; /* Dark gray background color */
+    color: #fff; /* White text color for contrast */
+    padding: 40px 0;
+  }
+  
+  .footer h5 {
+    color: #fff; /* White color for section headings */
+    margin-bottom: 20px;
+  }
+  
+  .footer .app-download {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .footer .app-download .app-store-btn,
+  .footer .app-download .google-play-btn {
+    background-color: #fff; /* White background for buttons */
+    color: #333; /* Dark gray text color for buttons */
+    border: none;
+    padding: 10px;
+    margin: 5px 0;
+    text-align: left;
+  }
+  
+  .footer .app-download img {
+    width: 120px; /* Adjust the size of the app store images */
+    margin-right: 10px;
+  }
+  
+  .footer .footer-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer .footer-section ul li {
+    margin-bottom: 10px;
+  }
+  
+  .footer .footer-section ul li a {
+    color: #fff; /* White color for links */
+    text-decoration: none;
+  }
+  
+  .footer .footer-section ul li a:hover {
+    text-decoration: underline; /* Underline links on hover */
+  }
+  
+  .footer .footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .footer .footer-bottom p {
+    margin: 5px 0;
+  }
+  
+  .footer .footer-bottom .tagline {
+    font-style: italic;
+  }
+  
